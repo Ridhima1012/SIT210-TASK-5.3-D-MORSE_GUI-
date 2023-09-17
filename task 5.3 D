@@ -7,10 +7,10 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 win = tk()
-window.title("RIDHIMA: TASK 5.3 D MORSE CODE BLINKING")
-window.geometry("600 X 400")
-win.resize("500 x 200")
-win.move("+400 + 200")
+win.title("RIDHIMA: TASK 5.3 D MORSE CODE BLINKING")
+win.geometry("600 X 400")
+win.geometry("500 x 200")
+win.geometry("+400 + 200")
 
 led = LED(19)
 
